@@ -3,6 +3,8 @@
 $(document).ready(function() {
   getIt();
   frameIt();
+  pressIt();
+  sunbitIt();
 });
 
 
