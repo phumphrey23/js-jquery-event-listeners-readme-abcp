@@ -3,7 +3,7 @@
 $(document).ready(function() {
   getIt();
   frameIt();
-  pressIt();
+  pressIt(key);
   sunbitIt();
 });
 
@@ -19,7 +19,7 @@ function frameIt(){
     $('img').addClass('tasty')
   })
 }
-function pressIt(){
+function pressIt(key){
  $("form").on("keydown",function(){
    if (key.which == 71){
      alert('g was pressed')
